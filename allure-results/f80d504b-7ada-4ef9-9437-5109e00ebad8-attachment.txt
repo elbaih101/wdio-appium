@@ -1,0 +1,3 @@
+unknown error: WebDriverError: Error attempting to start URI. Original error: Error: Error executing adbExec. Original error: 'Command '/home/elbaih/tools/android/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -a android.intent.action.VIEW -d https\://the-internet.herokuapp.com/login com.androidsample.generalstore' exited with code 1'; Command output: Starting: Intent { act=android.intent.action.VIEW dat=https://the-internet.herokuapp.com/... pkg=com.androidsample.generalstore }
+Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=https://the-internet.herokuapp.com/... flg=0x10000000 pkg=com.androidsample.generalstore }
+ when running "url" with method "POST"
