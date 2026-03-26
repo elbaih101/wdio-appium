@@ -63,7 +63,7 @@ export const config: WebdriverIO.Config = {
         'appium:automationName': 'UiAutomator2',
         'appium:noReset': false,
         'appium:fullReset': false,
-        // Add these for better compatibility
+        'appium:appWaitActivity': 'com.androidsample.generalstore.MainActivity',
         'appium:newCommandTimeout': 300,
         'appium:autoGrantPermissions': true
         
