@@ -1,0 +1,9 @@
+{
+
+    "customer":{
+        "name": "John Doe", "gender": "male", "country": "Andorra"
+    }
+,
+    "product": "Air Jordan 4 Retro"
+
+}
