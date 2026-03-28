@@ -12,7 +12,8 @@
             "@wdio/globals/types",
             "expect-webdriverio",
             "@wdio/mocha-framework",
-            "@wdio/appium-service"
+            "@wdio/appium-service",
+            "chai"
         ],
         "skipLibCheck": true,
         "noEmit": true,
@@ -26,6 +27,9 @@
     },
     "include": [
         "test",
-        "wdio.conf.ts"
-    ]
+        "utils",
+        "wdio.conf.ts",
+        "playwright.config.ts",
+    ],
+    "exclude": ["node_modules"]
 }
